@@ -244,26 +244,33 @@ h4 { font-size: 1.25rem; margin-bottom: 0.5rem; }
 }
 
 .site-logo-img {
-    height: 52px;
+    height: 48px;
+    max-height: 48px;
     width: auto;
+    max-width: 170px;
     object-fit: contain;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    padding: 3px 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: var(--transition);
 }
 
 .brand-logo:hover .site-logo-img {
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 .footer-logo-img {
     height: 48px;
+    max-height: 48px;
     width: auto;
+    max-width: 180px;
     object-fit: contain;
     border-radius: 8px;
     background: #FFFFFF;
-    padding: 3px;
+    padding: 4px 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1rem;
 }
 
 .logo-text {

@@ -5,8 +5,7 @@
             <!-- Column 1: Brand & Profile -->
             <div class="footer-col footer-brand-col">
                 <a href="index.php" class="footer-logo">
-                    <img src="assets/images/logo.png" alt="Uo Travel Solutions Logo" class="footer-logo-img">
-                    <span class="logo-text">UO TRAVEL SOLUTIONS</span>
+                    <img src="assets/images/logo.png" alt="Uo Travel Solutions" class="footer-logo-img">
                 </a>
                 <p class="footer-desc">
                     Your trusted ticket booking specialist for regional and international train routes, express intercity buses, and curated vacation packages.
