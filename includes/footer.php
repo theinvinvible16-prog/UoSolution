@@ -5,7 +5,7 @@
             <!-- Column 1: Brand & Profile -->
             <div class="footer-col footer-brand-col">
                 <a href="index.php" class="footer-logo">
-                    <img src="assets/images/logo.png" alt="Uo Travel Solutions" class="footer-logo-icon">
+                    <img src="assets/images/logo-icon.png" alt="Uo Travel Solutions" class="footer-logo-icon">
                     <span class="logo-text">UO TRAVEL SOLUTIONS</span>
                 </a>
                 <p class="footer-desc">
