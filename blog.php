@@ -1,6 +1,6 @@
 <?php
 $page_title = "Travel Blog & Guides | Rail & Bus Travel Tips";
-$page_description = "Read expert travel guides, train reservation tips, and bus route advice from Uo Travel Solutions (uotravelsolution.com).";
+$page_description = "Read expert travel guides, train reservation tips, and bus route advice from Uo Travel Solutions (uotravelsolutions.com).";
 require_once __DIR__ . '/includes/header.php';
 
 $blog_posts = [

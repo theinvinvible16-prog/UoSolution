@@ -1,6 +1,6 @@
 /**
  * Uo Travel Solutions - Main Interactivity JavaScript
- * Domain: uotravelsolution.com
+ * Domain: uotravelsolutions.com
  */
 
 document.addEventListener('DOMContentLoaded', function () {

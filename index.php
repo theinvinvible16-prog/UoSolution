@@ -1,6 +1,6 @@
 <?php
 $page_title = "Book Train & Bus Tickets & Travel Packages";
-$page_description = "Book train tickets, bus ticket reservations, and curated travel packages with Uo Travel Solutions (uotravelsolution.com). Fast fare quotes, 24/7 customer support, and verified transit partners.";
+$page_description = "Book train tickets, bus ticket reservations, and curated travel packages with Uo Travel Solutions (uotravelsolutions.com). Fast fare quotes, 24/7 customer support, and verified transit partners.";
 require_once __DIR__ . '/includes/header.php';
 require_once __DIR__ . '/includes/packages_data.php';
 ?>
@@ -13,13 +13,13 @@ require_once __DIR__ . '/includes/packages_data.php';
         <div class="hero-content">
             <span class="compliance-badge mb-3"><i class="fa-solid fa-shield-check"></i> Authorized Booking Intermediary</span>
             <h1>Book Train & Bus Tickets and Travel Packages with <span class="accent-text">Uo Travel Solutions</span></h1>
-            <p>Your trusted online reservation specialist for regional and international train routes, express intercity buses, and all-inclusive scenic travel packages.</p>
+            <p>Your online reservation specialist for regional and international train routes, express intercity buses, and all-inclusive scenic travel packages.</p>
             
             <div class="hero-badges">
                 <span class="hero-badge-item"><i class="fa-solid fa-train text-accent"></i> 1,500+ Rail Routes</span>
                 <span class="hero-badge-item"><i class="fa-solid fa-bus text-accent"></i> Express Motorcoach Fares</span>
                 <span class="hero-badge-item"><i class="fa-solid fa-suitcase-rolling text-accent"></i> Curated Vacation Packages</span>
-                <span class="hero-badge-item"><i class="fa-solid fa-headset text-accent"></i> 24/7 Live Passenger Support</span>
+                <span class="hero-badge-item"><i class="fa-solid fa-headset text-accent"></i> Dedicated Passenger Support</span>
             </div>
         </div>
 
@@ -87,7 +87,7 @@ require_once __DIR__ . '/includes/packages_data.php';
 
                 <div class="form-disclaimer">
                     <i class="fa-solid fa-circle-info"></i>
-                    <span>Quotes are issued within 15 minutes. No hidden booking fees. Guaranteed fare quotes.</span>
+                    <span>Quotes are typically issued within 15 minutes. No hidden booking fees. Upfront fare estimates.</span>
                 </div>
             </form>
         </div>
@@ -95,40 +95,40 @@ require_once __DIR__ . '/includes/packages_data.php';
     </div>
 </section>
 
-<!-- Trust Counters Section -->
+<!-- Service Features Row Section -->
 <section class="trust-row-section">
     <div class="container">
         <div class="trust-counters-grid">
             
             <div class="counter-card">
-                <div class="counter-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="counter-icon"><i class="fa-solid fa-building-shield"></i></div>
                 <div class="counter-text">
-                    <div class="counter-number">15+</div>
-                    <div class="counter-label">Years of Booking Excellence</div>
+                    <div class="counter-number" style="font-size: 1.15rem; font-weight: 700;">Independent Agency</div>
+                    <div class="counter-label">Authorized Booking Intermediary</div>
                 </div>
             </div>
 
             <div class="counter-card">
-                <div class="counter-icon"><i class="fa-solid fa-ticket"></i></div>
+                <div class="counter-icon"><i class="fa-solid fa-route"></i></div>
                 <div class="counter-text">
-                    <div class="counter-number">150,000+</div>
-                    <div class="counter-label">Tickets Reserved Successfully</div>
+                    <div class="counter-number" style="font-size: 1.15rem; font-weight: 700;">Transit Network</div>
+                    <div class="counter-label">Regional & International</div>
                 </div>
             </div>
 
             <div class="counter-card">
-                <div class="counter-icon"><i class="fa-solid fa-star"></i></div>
+                <div class="counter-icon"><i class="fa-solid fa-headset"></i></div>
                 <div class="counter-text">
-                    <div class="counter-number">4.9 / 5.0</div>
-                    <div class="counter-label">Passenger Satisfaction Rating</div>
+                    <div class="counter-number" style="font-size: 1.15rem; font-weight: 700;">Dedicated Support</div>
+                    <div class="counter-label">Personalized Travel Assistance</div>
                 </div>
             </div>
 
             <div class="counter-card">
-                <div class="counter-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="counter-icon"><i class="fa-solid fa-lock"></i></div>
                 <div class="counter-text">
-                    <div class="counter-number">100%</div>
-                    <div class="counter-label">Secure & Guaranteed Tickets</div>
+                    <div class="counter-number" style="font-size: 1.15rem; font-weight: 700;">Secure Booking</div>
+                    <div class="counter-label">Encrypted Data Protection</div>
                 </div>
             </div>
 
@@ -142,7 +142,7 @@ require_once __DIR__ . '/includes/packages_data.php';
         <div class="text-center" style="text-align: center; margin-bottom: 2rem;">
             <span class="section-subtitle">Curated Itineraries</span>
             <h2>Featured Holiday Travel Packages</h2>
-            <p class="lead-text" style="margin: 0 auto;">Discover top-rated train expeditions and motorcoach adventures with clear upfront pricing, full itineraries, and flexible booking terms.</p>
+            <p class="lead-text" style="margin: 0 auto;">Discover scenic train expeditions and motorcoach adventures with clear upfront pricing, full itineraries, and flexible booking terms.</p>
         </div>
 
         <div class="packages-grid">
@@ -216,7 +216,7 @@ require_once __DIR__ . '/includes/packages_data.php';
             <div class="step-card">
                 <span class="step-num">02</span>
                 <div class="step-icon"><i class="fa-solid fa-receipt"></i></div>
-                <h3>2. Receive Guaranteed Fares</h3>
+                <h3>2. Receive Upfront Fare Quotes</h3>
                 <p>Our travel team checks official carrier inventories to send you transparent fare options, seat maps, and exact costs.</p>
             </div>
 
@@ -224,75 +224,9 @@ require_once __DIR__ . '/includes/packages_data.php';
                 <span class="step-num">03</span>
                 <div class="step-icon"><i class="fa-solid fa-ticket"></i></div>
                 <h3>3. Confirm & Receive E-Tickets</h3>
-                <p>Confirm your itinerary with secure payment. Instant official E-Tickets and seat passes are delivered straight to your email & phone.</p>
+                <p>Confirm your itinerary with secure payment. Official E-Tickets and seat passes are delivered straight to your email & phone.</p>
             </div>
 
-        </div>
-    </div>
-</section>
-
-<!-- Verified Customer Testimonials -->
-<section class="section-padding bg-light">
-    <div class="container">
-        <div class="text-center" style="text-align: center; margin-bottom: 2.5rem;">
-            <span class="section-subtitle">Real Traveler Feedback</span>
-            <h2>What Passengers Say About Us</h2>
-        </div>
-
-        <div class="packages-grid">
-            <div class="package-card" style="padding: 1.75rem;">
-                <div style="color: var(--gold); margin-bottom: 0.75rem;">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p style="font-style: italic; font-size: 0.95rem; margin-bottom: 1.25rem; color: var(--text-body);">
-                    "Booking our Swiss Glacier Express tickets through Uo Travel Solutions was completely stress-free. They handled our seat reservations and sent clear PDFs to our phones. Highly recommend!"
-                </p>
-                <div style="display: flex; align-items: center; gap: 0.75rem;">
-                    <div style="width: 42px; height: 42px; border-radius: 50%; background: var(--primary); color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center;">
-                        MS
-                    </div>
-                    <div>
-                        <strong style="display: block; font-size: 0.95rem;">Marcus S.</strong>
-                        <span style="font-size: 0.8rem; color: var(--text-muted);">Zurich to Zermatt Rail Traveler</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="package-card" style="padding: 1.75rem;">
-                <div style="color: var(--gold); margin-bottom: 0.75rem;">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p style="font-style: italic; font-size: 0.95rem; margin-bottom: 1.25rem; color: var(--text-body);">
-                    "Needed last-minute express bus tickets from Las Vegas to Grand Canyon. Uo Travel Solutions got us seats on a deluxe motorcoach within 20 minutes. Fantastic customer service."
-                </p>
-                <div style="display: flex; align-items: center; gap: 0.75rem;">
-                    <div style="width: 42px; height: 42px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center;">
-                        ER
-                    </div>
-                    <div>
-                        <strong style="display: block; font-size: 0.95rem;">Elena R.</strong>
-                        <span style="font-size: 0.8rem; color: var(--text-muted);">Grand Canyon Bus Passenger</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="package-card" style="padding: 1.75rem;">
-                <div style="color: var(--gold); margin-bottom: 0.75rem;">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                </div>
-                <p style="font-style: italic; font-size: 0.95rem; margin-bottom: 1.25rem; color: var(--text-body);">
-                    "Our 10-day Euro Rail & Bus combo package was organized perfectly. Hotels were right next to the stations, and every train leg was smooth. Will definitely book again."
-                </p>
-                <div style="display: flex; align-items: center; gap: 0.75rem;">
-                    <div style="width: 42px; height: 42px; border-radius: 50%; background: var(--primary-light); color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center;">
-                        DT
-                    </div>
-                    <div>
-                        <strong style="display: block; font-size: 0.95rem;">David T.</strong>
-                        <span style="font-size: 0.8rem; color: var(--text-muted);">European Explorer Tour</span>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
@@ -302,7 +236,7 @@ require_once __DIR__ . '/includes/packages_data.php';
     <div class="container">
         <h2 class="text-white" style="font-size: 2.25rem; margin-bottom: 1rem;">Ready to Plan Your Next Train or Bus Journey?</h2>
         <p style="color: #CBD5E1; max-width: 650px; margin: 0 auto 2rem auto; font-size: 1.1rem;">
-            Call our live reservation desk now or submit a quick quote request to lock in current carrier rates and seat availability.
+            Call our reservation desk now or submit a quote request to check current carrier rates and seat availability.
         </p>
         <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
             <a href="tel:18887907847" class="btn btn-accent btn-lg">

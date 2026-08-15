@@ -1,6 +1,6 @@
 <?php
 $page_title = "Privacy Policy | User Data Protection & Cookie Policy";
-$page_description = "Read the Privacy Policy for Uo Travel Solutions (uotravelsolution.com). Full data protection transparency compliant with Google Ads and privacy laws.";
+$page_description = "Read the Privacy Policy for Uo Travel Solutions (uotravelsolutions.com). Full data protection transparency compliant with privacy laws.";
 require_once __DIR__ . '/includes/header.php';
 ?>
 
@@ -42,7 +42,7 @@ require_once __DIR__ . '/includes/header.php';
                 <li>Transmitting passenger manifests to authorized railway and bus transport carriers.</li>
                 <li>Providing 24/7 customer support, schedule change notifications, and disruption alerts.</li>
                 <li>Processing authorized cancellations, fare modifications, and refund credits.</li>
-                <li>Maintaining compliance with Google Ads policies, fraud prevention standards, and accounting regulations.</li>
+                <li>Maintaining compliance with data protection laws, fraud prevention standards, and accounting regulations.</li>
             </ul>
 
             <h2>3. Information Sharing & Third-Party Disclosures</h2>

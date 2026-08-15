@@ -3,4 +3,4 @@ Allow: /
 Disallow: /includes/
 Disallow: /logs/
 
-Sitemap: https://uotravelsolution.com/sitemap.xml
+Sitemap: https://uotravelsolutions.com/sitemap.xml

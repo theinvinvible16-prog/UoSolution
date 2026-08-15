@@ -80,7 +80,7 @@ require_once __DIR__ . '/config.php';
             <div class="container footer-middle-container">
                 <div class="trust-seals">
                     <span class="trust-item"><i class="fa-solid fa-lock text-success"></i> 256-Bit SSL Encryption</span>
-                    <span class="trust-item"><i class="fa-solid fa-shield-halved text-accent"></i> Verified Intermediary Agency</span>
+                    <span class="trust-item"><i class="fa-solid fa-shield-halved text-accent"></i> Independent Travel Agency</span>
                     <span class="trust-item"><i class="fa-solid fa-headset text-warning"></i> 24/7 Booking Assistance</span>
                 </div>
                 <div class="payment-methods">

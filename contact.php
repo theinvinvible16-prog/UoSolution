@@ -1,6 +1,6 @@
 <?php
 $page_title = "Contact Us | Customer Support & Office Details";
-$page_description = "Contact Uo Travel Solutions (uotravelsolution.com). Phone: +1 (888) 790-7847, Email: support@uotravelsolution.com, Address: 2611 E 219th St, Long Beach, CA 90810.";
+$page_description = "Contact Uo Travel Solutions (uotravelsolutions.com). Phone: +1 (888) 790-7847, Email: support@uotravelsolutions.com, Address: 2611 E 219th St, Long Beach, CA 90810.";
 require_once __DIR__ . '/includes/header.php';
 ?>
 
@@ -151,7 +151,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
 
                 <div style="background: rgba(255,255,255,0.08); padding: 1rem; border-radius: var(--border-radius-sm); margin-top: 2rem; font-size: 0.8rem; color: #CBD5E1;">
-                    <i class="fa-solid fa-shield-check text-accent"></i> Verified Google Ads Travel Partner Account
+                    <i class="fa-solid fa-building-shield text-accent"></i> Independent Travel Agency & Intermediary
                 </div>
             </div>
 

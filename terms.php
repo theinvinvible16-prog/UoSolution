@@ -1,6 +1,6 @@
 <?php
 $page_title = "Terms & Conditions | User Agreement & Booking Terms";
-$page_description = "Read the official Terms and Conditions for booking train tickets, bus passes, and travel packages through Uo Travel Solutions (uotravelsolution.com).";
+$page_description = "Read the official Terms and Conditions for booking train tickets, bus passes, and travel packages through Uo Travel Solutions (uotravelsolutions.com).";
 require_once __DIR__ . '/includes/header.php';
 ?>
 

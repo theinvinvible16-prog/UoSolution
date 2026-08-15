@@ -1,6 +1,6 @@
 <?php
 $page_title = "About Us | Authorized Travel Agency & Intermediary";
-$page_description = "Learn about Uo Travel Solutions (uotravelsolution.com). Authorized travel agency and reservation specialist for train tickets, express bus passes, and curated travel packages.";
+$page_description = "Learn about Uo Travel Solutions (uotravelsolutions.com). Authorized travel agency and reservation specialist for train tickets, express bus passes, and curated travel packages.";
 require_once __DIR__ . '/includes/header.php';
 ?>
 
@@ -30,7 +30,7 @@ require_once __DIR__ . '/includes/header.php';
                 </p>
                 <div class="policy-alert" style="margin-top: 1.5rem;">
                     <i class="fa-solid fa-circle-info"></i>
-                    <strong>Google Ads Travel Policy Disclosure:</strong> Uo Travel Solutions operates strictly as an independent travel agency and ticket booking intermediary. We are not a direct rail operator or bus carrier. Ticket fulfillment is executed through authorized third-party transit providers.
+                    <strong>Travel Intermediary Disclosure:</strong> Uo Travel Solutions operates strictly as an independent travel agency and ticket booking intermediary. We are not a direct rail operator or bus carrier. Ticket fulfillment is executed through authorized third-party transit providers.
                 </div>
             </div>
 

@@ -1,13 +1,13 @@
 <?php
-$page_title = "Refund & Cancellation Policy | Google Ads Verified Standards";
-$page_description = "Read the complete Refund & Cancellation Policy for train, bus, and package reservations at Uo Travel Solutions (uotravelsolution.com). Clear refund windows, timelines, and procedures.";
+$page_title = "Refund & Cancellation Policy | Uo Travel Solutions";
+$page_description = "Read the complete Refund & Cancellation Policy for train, bus, and package reservations at Uo Travel Solutions (uotravelsolutions.com). Clear refund windows, timelines, and procedures.";
 require_once __DIR__ . '/includes/header.php';
 ?>
 
 <!-- Inner Banner -->
 <section class="hero-section" style="padding: 3rem 0; background: linear-gradient(135deg, rgba(10, 37, 64, 0.95) 0%, rgba(6, 23, 41, 0.98) 100%);">
     <div class="container text-center" style="text-align: center;">
-        <span class="compliance-badge mb-2"><i class="fa-solid fa-rotate-left"></i> Verified Travel Terms</span>
+        <span class="compliance-badge mb-2"><i class="fa-solid fa-rotate-left"></i> Passenger Refund Policy</span>
         <h1 class="text-white">Refund & Cancellation Policy</h1>
         <p style="color: #CBD5E1; max-width: 700px; margin: 0 auto;">
             Effective Date: January 15, 2026 | Domain: <?php echo SITE_DOMAIN; ?>
@@ -22,7 +22,7 @@ require_once __DIR__ . '/includes/header.php';
             
             <div class="policy-alert">
                 <i class="fa-solid fa-circle-check"></i>
-                <strong>Google Ads Policy Compliance Verified:</strong> <strong><?php echo BUSINESS_LEGAL_NAME; ?></strong> maintains transparent, fair, and clearly defined refund rules for all train ticket reservations, express bus passes, and holiday package bookings.
+                <strong>Transparent Refund Terms:</strong> <strong><?php echo BUSINESS_LEGAL_NAME; ?></strong> maintains transparent, fair, and clearly defined refund rules for all train ticket reservations, express bus passes, and holiday package bookings.
             </div>
 
             <h2>1. General Cancellation Principles</h2>
