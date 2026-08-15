@@ -243,34 +243,39 @@ h4 { font-size: 1.25rem; margin-bottom: 0.5rem; }
     text-decoration: none;
 }
 
-.site-logo-img {
-    height: 48px;
-    max-height: 48px;
-    width: auto;
-    max-width: 170px;
+.site-logo-icon {
+    height: 44px;
+    width: 44px;
     object-fit: contain;
     border-radius: 8px;
     background: #FFFFFF;
-    padding: 3px 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 3px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    flex-shrink: 0;
     transition: var(--transition);
 }
 
-.brand-logo:hover .site-logo-img {
-    transform: scale(1.03);
+.brand-logo:hover .site-logo-icon {
+    transform: scale(1.05);
 }
 
-.footer-logo-img {
-    height: 48px;
-    max-height: 48px;
-    width: auto;
-    max-width: 180px;
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+    text-decoration: none;
+}
+
+.footer-logo-icon {
+    height: 42px;
+    width: 42px;
     object-fit: contain;
     border-radius: 8px;
     background: #FFFFFF;
-    padding: 4px 10px;
+    padding: 3px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-    margin-bottom: 1rem;
+    flex-shrink: 0;
 }
 
 .logo-text {
