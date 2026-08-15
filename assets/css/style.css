@@ -846,58 +846,94 @@ h4 { font-size: 1.25rem; margin-bottom: 0.5rem; }
     font-size: 0.95rem;
 }
 
-/* Footer Styling */
-.main-footer {
-    background-color: var(--primary-dark);
-    color: #94A3B8;
+/* Premium Modern Footer Styling */
+.site-footer {
+    background: linear-gradient(145deg, #051322 0%, #0A2540 50%, #06192C 100%);
+    color: #CBD5E1;
     margin-top: 4rem;
-}
-
-.footer-top {
-    padding: 4.5rem 0 3.5rem 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    position: relative;
+    border-top: 3px solid #00D4B1;
+    border-image: linear-gradient(90deg, #F4A261 0%, #00D4B1 50%, #2DD4BF 100%) 1;
 }
 
 .footer-grid {
     display: grid;
     grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
-    gap: 3rem;
+    gap: 2.5rem;
+    padding-bottom: 3.5rem;
 }
 
-.footer-logo {
+.footer-brand-col .footer-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
     margin-bottom: 1.25rem;
+    text-decoration: none;
+}
+
+.footer-brand-col .logo-icon {
+    font-size: 1.75rem;
+    color: var(--accent);
+}
+
+.footer-brand-col .logo-text {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
 }
 
 .footer-desc {
-    font-size: 0.9rem;
-    color: #94A3B8;
-    margin-bottom: 1.25rem;
-}
-
-.intermediary-box {
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 0.85rem 1rem;
-    border-radius: var(--border-radius-sm);
-    font-size: 0.8rem;
+    font-size: 0.925rem;
     color: #CBD5E1;
-    display: flex;
-    gap: 0.75rem;
-    align-items: flex-start;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
 }
 
-.intermediary-box i {
+.footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    font-size: 0.9rem;
+}
+
+.footer-contact-info div {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #E2E8F0;
+}
+
+.footer-contact-info i {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(0, 212, 177, 0.12);
     color: var(--accent);
-    font-size: 1rem;
-    margin-top: 0.15rem;
+    border: 1px solid rgba(0, 212, 177, 0.25);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}
+
+.footer-contact-info a {
+    color: #E2E8F0;
+    transition: var(--transition);
+}
+
+.footer-contact-info a:hover {
+    color: var(--accent);
 }
 
 .footer-heading {
     color: #FFFFFF;
-    font-size: 1.1rem;
-    margin-bottom: 1.25rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
     position: relative;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.6rem;
 }
 
 .footer-heading::after {
@@ -905,59 +941,67 @@ h4 { font-size: 1.25rem; margin-bottom: 0.5rem; }
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 35px;
-    height: 2px;
-    background: var(--accent);
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--gold));
+    border-radius: 2px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-links li {
-    margin-bottom: 0.65rem;
+    margin-bottom: 0.75rem;
 }
 
 .footer-links a {
-    color: #94A3B8;
-    font-size: 0.9rem;
+    color: #CBD5E1;
+    font-size: 0.925rem;
     display: inline-flex;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.5rem;
+    transition: all 0.25s ease;
 }
 
 .footer-links a i {
     font-size: 0.7rem;
     color: var(--accent);
+    transition: transform 0.25s ease;
 }
 
 .footer-links a:hover {
-    color: #FFFFFF;
-    transform: translateX(4px);
+    color: #00D4B1;
+    transform: translateX(6px);
 }
 
-.footer-contact-list li {
-    display: flex;
-    gap: 0.85rem;
-    font-size: 0.875rem;
-    margin-bottom: 1rem;
-    color: #CBD5E1;
+.footer-links a:hover i {
+    color: var(--gold);
 }
 
-.footer-contact-list i {
-    color: var(--accent);
-    font-size: 1.1rem;
-    margin-top: 0.2rem;
+/* Glassmorphic Support Card in Footer */
+.footer-support-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    transition: var(--transition);
 }
 
-.footer-contact-list a {
-    color: #CBD5E1;
-}
-
-.footer-contact-list a:hover {
-    color: #FFFFFF;
+.footer-support-card:hover {
+    border-color: rgba(0, 212, 177, 0.4);
+    box-shadow: 0 20px 40px rgba(0, 212, 177, 0.15);
 }
 
 .footer-middle {
     padding: 1.5rem 0;
-    background: rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.35);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .footer-middle-container {
@@ -971,15 +1015,19 @@ h4 { font-size: 1.25rem; margin-bottom: 0.5rem; }
 .trust-seals {
     display: flex;
     gap: 1.5rem;
-    font-size: 0.85rem;
-    font-weight: 500;
+    font-size: 0.875rem;
+    font-weight: 600;
 }
 
 .trust-item {
     display: inline-flex;
     align-items: center;
-    gap: 0.4rem;
-    color: #E2E8F0;
+    gap: 0.5rem;
+    color: #F1F5F9;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 0.4rem 0.85rem;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .text-success { color: #2DD4BF; }
@@ -993,7 +1041,8 @@ h4 { font-size: 1.25rem; margin-bottom: 0.5rem; }
 }
 
 .payment-title {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
+    font-weight: 500;
     color: #94A3B8;
 }
 
@@ -1004,19 +1053,22 @@ h4 { font-size: 1.25rem; margin-bottom: 0.5rem; }
 
 .pay-badge {
     background: rgba(255, 255, 255, 0.08);
-    padding: 0.35rem 0.65rem;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    color: #E2E8F0;
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.12);
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
+    gap: 0.4rem;
+    font-weight: 500;
 }
 
 .footer-bottom {
-    padding: 1.25rem 0;
+    padding: 1.5rem 0;
     font-size: 0.85rem;
-    color: #64748B;
+    color: #94A3B8;
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .footer-bottom-container {
@@ -1025,6 +1077,20 @@ h4 { font-size: 1.25rem; margin-bottom: 0.5rem; }
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
+}
+
+.copyright-text {
+    margin: 0;
+    font-weight: 500;
+    color: #CBD5E1;
+}
+
+.disclaimer-text {
+    margin: 0;
+    font-size: 0.8rem;
+    color: #94A3B8;
+    max-width: 600px;
+    line-height: 1.5;
 }
 
 .legal-footer-nav {
