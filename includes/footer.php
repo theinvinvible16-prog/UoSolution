@@ -106,7 +106,7 @@
                     <i class="fa-solid fa-circle-info"></i>
                 </div>
                 <div>
-                    <h4>Agency Disclaimer & Intermediary Notice</h4>
+                    <h4>Agency Disclaimer & Passenger Notice</h4>
                     <p>
                         <strong>Uo Travel Solutions</strong> is an independent travel agency and ticket booking intermediary. We are not a direct train or bus transit operator. Ticket fulfillment, rail schedules, and bus routes are provided by third-party passenger transit carriers.
                     </p>

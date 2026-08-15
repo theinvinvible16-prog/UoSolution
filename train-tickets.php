@@ -129,7 +129,7 @@ require_once __DIR__ . '/includes/header.php';
 
         <div class="policy-alert mt-4">
             <i class="fa-solid fa-circle-info"></i>
-            <strong>Pricing Transparency & Intermediary Disclosure:</strong> All fares displayed are realistic estimates based on carrier baseline pricing. Final ticket costs are confirmed at the time of official booking inquiry. Uo Travel Solutions charges a transparent booking service fee clearly itemized on your final receipt.
+            <strong>Pricing Transparency & Agency Disclosure:</strong> All fares displayed are realistic estimates based on carrier baseline pricing. Final ticket costs are confirmed at the time of official booking inquiry. Uo Travel Solutions charges a transparent booking service fee clearly itemized on your final receipt.
         </div>
     </div>
 </section>

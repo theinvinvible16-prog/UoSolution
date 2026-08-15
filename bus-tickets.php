@@ -129,7 +129,7 @@ require_once __DIR__ . '/includes/header.php';
 
         <div class="policy-alert mt-4">
             <i class="fa-solid fa-building-shield"></i>
-            <strong>Carrier Intermediary Notice:</strong> Bus transportation is operated by licensed third-party passenger transit carriers (such as FlixBus, Greyhound, Megabus, and local charter lines). Uo Travel Solutions acts solely as an authorized booking agent.
+            <strong>Carrier Notice:</strong> Bus transportation is operated by licensed third-party passenger transit carriers (such as FlixBus, Greyhound, Megabus, and local charter lines). Uo Travel Solutions acts solely as an authorized booking agent.
         </div>
     </div>
 </section>
