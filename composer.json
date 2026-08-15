@@ -1,0 +1,8 @@
+{
+  "name": "uotravelsolution/website",
+  "description": "Uo Travel Solutions - Train & Bus Ticket Reservation & Travel Package Specialist",
+  "type": "project",
+  "require": {
+    "php": ">=8.1"
+  }
+}
