@@ -185,10 +185,18 @@ require_once __DIR__ . '/config.php';
                     <span>Your personal information is strictly protected per our <a href="privacy-policy.php" target="_blank">Privacy Policy</a>. Uo Travel Solutions is an independent booking agency.</span>
                 </div>
 
-                <button type="submit" class="btn btn-accent btn-full">
-                    <i class="fa-solid fa-paper-plane"></i> Submit Quote Request
-                </button>
-            </form>
+    <!-- Automatic Disclaimer Modal (Triggered 2s after website launch) -->
+    <div class="modal-overlay" id="autoDisclaimerModal">
+        <div class="modal-card" style="max-width: 550px; text-align: center; padding: 2.25rem;">
+            <button class="modal-close" id="closeDisclaimerBtn" aria-label="Close disclaimer">&times;</button>
+            <div class="modal-icon" style="background: #FEF3EA; color: #F4A261;"><i class="fa-solid fa-circle-info"></i></div>
+            <h3 style="font-size: 1.4rem; margin-bottom: 0.75rem; color: var(--primary);">Agency Intermediary Disclaimer</h3>
+            <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-body); margin-bottom: 1.5rem;">
+                <strong>Uo Travel Solutions</strong> is an independent travel agency and ticket booking intermediary. We are not a direct train or bus transit operator. Ticket fulfillment, rail schedules, and bus routes are provided by third-party passenger transit carriers.
+            </p>
+            <button type="button" class="btn btn-accent btn-full" id="acceptDisclaimerBtn">
+                <i class="fa-solid fa-circle-check"></i> I Understand & Continue
+            </button>
         </div>
     </div>
 

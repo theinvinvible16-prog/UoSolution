@@ -165,4 +165,27 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     }
+
+    // 6. Automatic Disclaimer Modal (Triggered 2 seconds after website launch)
+    const autoDisclaimerModal = document.getElementById('autoDisclaimerModal');
+    const closeDisclaimerBtn = document.getElementById('closeDisclaimerBtn');
+    const acceptDisclaimerBtn = document.getElementById('acceptDisclaimerBtn');
+
+    if (autoDisclaimerModal) {
+        setTimeout(function () {
+            autoDisclaimerModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }, 2000);
+
+        function dismissDisclaimer() {
+            autoDisclaimerModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        if (closeDisclaimerBtn) closeDisclaimerBtn.addEventListener('click', dismissDisclaimer);
+        if (acceptDisclaimerBtn) acceptDisclaimerBtn.addEventListener('click', dismissDisclaimer);
+        autoDisclaimerModal.addEventListener('click', function (e) {
+            if (e.target === autoDisclaimerModal) dismissDisclaimer();
+        });
+    }
 });

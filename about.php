@@ -1,6 +1,6 @@
 <?php
-$page_title = "About Us | Authorized Travel Agency & Intermediary";
-$page_description = "Learn about Uo Travel Solutions (uotravelsolutions.com). Authorized travel agency and reservation specialist for train tickets, express bus passes, and curated travel packages.";
+$page_title = "About Us | Independent Travel Agency & Intermediary";
+$page_description = "Learn about Uo Travel Solutions (uotravelsolutions.com). Independent travel agency and reservation specialist for train tickets, express bus passes, and curated travel packages.";
 require_once __DIR__ . '/includes/header.php';
 ?>
 
