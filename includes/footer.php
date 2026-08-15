@@ -1,14 +1,97 @@
-    <!-- Footer Disclaimer Banner -->
-    <div class="footer-bottom">
-        <div class="container footer-bottom-container">
-            <p class="copyright-text">
-                &copy; <?php echo date('Y'); ?> <?php echo BUSINESS_LEGAL_NAME; ?>. All Rights Reserved.
-            </p>
-            <p class="disclaimer-text">
-                <?php echo AGENCY_DISCLAIMER; ?>
-            </p>
+    <!-- Main Site Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            
+            <!-- Column 1: Brand & Profile -->
+            <div class="footer-col footer-brand-col">
+                <a href="index.php" class="footer-logo">
+                    <i class="fa-solid fa-train-subway logo-icon"></i>
+                    <span class="logo-text">UO TRAVEL SOLUTIONS</span>
+                </a>
+                <p class="footer-desc">
+                    Your independent travel agency and ticket booking specialist for regional and international train routes, express intercity buses, and curated vacation packages.
+                </p>
+                <div class="footer-contact-info">
+                    <div><i class="fa-solid fa-location-dot text-accent"></i> <?php echo FULL_ADDRESS; ?></div>
+                    <div><i class="fa-solid fa-phone text-accent"></i> <a href="tel:18887907847"><?php echo PHONE_PRIMARY; ?></a></div>
+                    <div><i class="fa-solid fa-envelope text-accent"></i> <a href="mailto:<?php echo EMAIL_SUPPORT; ?>"><?php echo EMAIL_SUPPORT; ?></a></div>
+                </div>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Transit Services</h4>
+                <ul class="footer-links">
+                    <li><a href="train-tickets.php"><i class="fa-solid fa-chevron-right"></i> Train Tickets & Rail Passes</a></li>
+                    <li><a href="bus-tickets.php"><i class="fa-solid fa-chevron-right"></i> Express Bus Tickets</a></li>
+                    <li><a href="packages.php"><i class="fa-solid fa-chevron-right"></i> Holiday Travel Packages</a></li>
+                    <li><a href="blog.php"><i class="fa-solid fa-chevron-right"></i> Travel Guides & Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Company & Policies -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Company & Policies</h4>
+                <ul class="footer-links">
+                    <li><a href="about.php"><i class="fa-solid fa-chevron-right"></i> About Uo Travel Solutions</a></li>
+                    <li><a href="contact.php"><i class="fa-solid fa-chevron-right"></i> Contact Customer Support</a></li>
+                    <li><a href="faq.php"><i class="fa-solid fa-chevron-right"></i> FAQ & Help Center</a></li>
+                    <?php foreach ($legal_nav as $file => $label): ?>
+                        <li><a href="<?php echo $file; ?>"><i class="fa-solid fa-chevron-right"></i> <?php echo $label; ?></a></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+
+            <!-- Column 4: Customer Support Card -->
+            <div class="footer-col">
+                <h4 class="footer-heading">Reservation Support</h4>
+                <div class="footer-support-card">
+                    <p style="font-size: 0.85rem; color: #CBD5E1; margin-bottom: 0.75rem;">
+                        Need assistance with train seats, bus schedules, or itinerary planning? Call our live desk:
+                    </p>
+                    <a href="tel:18887907847" class="btn btn-accent btn-sm btn-full mb-2">
+                        <i class="fa-solid fa-phone"></i> <?php echo PHONE_PRIMARY; ?>
+                    </a>
+                    <span style="font-size: 0.75rem; color: #94A3B8; display: block; text-align: center;">
+                        <?php echo HOURS_WEEKDAY; ?>
+                    </span>
+                </div>
+            </div>
+
         </div>
-    </div>
+
+        <!-- Trust Seals & Payment Icons Bar -->
+        <div class="footer-middle">
+            <div class="container footer-middle-container">
+                <div class="trust-seals">
+                    <span class="trust-item"><i class="fa-solid fa-lock text-success"></i> 256-Bit SSL Encryption</span>
+                    <span class="trust-item"><i class="fa-solid fa-shield-halved text-accent"></i> Independent Travel Agency</span>
+                    <span class="trust-item"><i class="fa-solid fa-headset text-warning"></i> 24/7 Booking Assistance</span>
+                </div>
+                <div class="payment-methods">
+                    <span class="payment-title">Accepted Payment Options:</span>
+                    <div class="payment-badges">
+                        <span class="pay-badge"><i class="fa-brands fa-cc-visa"></i> Visa</span>
+                        <span class="pay-badge"><i class="fa-brands fa-cc-mastercard"></i> Mastercard</span>
+                        <span class="pay-badge"><i class="fa-brands fa-cc-amex"></i> Amex</span>
+                        <span class="pay-badge"><i class="fa-brands fa-cc-paypal"></i> PayPal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom Disclaimer -->
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p class="copyright-text">
+                    &copy; <?php echo date('Y'); ?> <?php echo BUSINESS_LEGAL_NAME; ?>. All Rights Reserved.
+                </p>
+                <p class="disclaimer-text">
+                    <?php echo AGENCY_DISCLAIMER; ?>
+                </p>
+            </div>
+        </div>
+    </footer>
 
     <!-- Universal Quote / Booking Inquiry Modal -->
     <div class="modal-overlay" id="inquiryModal">
