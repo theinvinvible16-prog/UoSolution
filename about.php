@@ -1,6 +1,6 @@
 <?php
-$page_title = "About Us | Independent Travel Agency & Intermediary";
-$page_description = "Learn about Uo Travel Solutions (uotravelsolutions.com). Independent travel agency and reservation specialist for train tickets, express bus passes, and curated travel packages.";
+$page_title = "About Us | Ticket Booking Specialist";
+$page_description = "Learn about Uo Travel Solutions (uotravelsolutions.com). Ticket booking agency and reservation specialist for train tickets, express bus passes, and curated travel packages.";
 require_once __DIR__ . '/includes/header.php';
 ?>
 
@@ -23,14 +23,14 @@ require_once __DIR__ . '/includes/header.php';
                 <span class="section-subtitle">Who We Are</span>
                 <h2>Your Trusted Ticket Reservation Intermediary</h2>
                 <p class="lead-text" style="margin-bottom: 1.25rem;">
-                    <strong><?php echo BUSINESS_LEGAL_NAME; ?></strong> (operating online at <strong><?php echo SITE_DOMAIN; ?></strong>) is an established independent travel agency headquartered in Long Beach, California, USA.
+                    <strong><?php echo BUSINESS_LEGAL_NAME; ?></strong> (operating online at <strong><?php echo SITE_DOMAIN; ?></strong>) is an established ticket booking agency headquartered in Long Beach, California, USA.
                 </p>
                 <p style="margin-bottom: 1.25rem;">
                     Navigating complex rail timetables, seat class restrictions, and multi-carrier bus connections can be overwhelming. Uo Travel Solutions acts as your dedicated booking intermediary—verifying live inventory across major passenger transit operators, handling mandatory seat reservations, and delivering guaranteed electronic tickets straight to your smartphone.
                 </p>
                 <div class="policy-alert" style="margin-top: 1.5rem;">
                     <i class="fa-solid fa-circle-info"></i>
-                    <strong>Travel Agency Disclosure:</strong> Uo Travel Solutions operates strictly as an independent travel agency and ticket booking intermediary. We are not a direct rail operator or bus carrier. Ticket fulfillment is executed through authorized third-party transit providers.
+                    <strong>Travel Agency Disclosure:</strong> Uo Travel Solutions operates strictly as a ticket booking agency and intermediary. We are not a direct rail operator or bus carrier. Ticket fulfillment is executed through authorized third-party transit providers.
                 </div>
             </div>
 

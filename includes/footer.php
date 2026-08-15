@@ -9,7 +9,7 @@
                     <span class="logo-text">UO TRAVEL SOLUTIONS</span>
                 </a>
                 <p class="footer-desc">
-                    Your independent travel agency and ticket booking specialist for regional and international train routes, express intercity buses, and curated vacation packages.
+                    Your trusted ticket booking specialist for regional and international train routes, express intercity buses, and curated vacation packages.
                 </p>
                 <div class="footer-contact-info">
                     <div><i class="fa-solid fa-location-dot text-accent"></i> <?php echo FULL_ADDRESS; ?></div>
@@ -65,7 +65,7 @@
             <div class="container footer-middle-container">
                 <div class="trust-seals">
                     <span class="trust-item"><i class="fa-solid fa-lock text-success"></i> 256-Bit SSL Encryption</span>
-                    <span class="trust-item"><i class="fa-solid fa-shield-halved text-accent"></i> Independent Travel Agency</span>
+                    <span class="trust-item"><i class="fa-solid fa-shield-halved text-accent"></i> Verified Ticket Agency</span>
                     <span class="trust-item"><i class="fa-solid fa-headset text-warning"></i> 24/7 Booking Assistance</span>
                 </div>
                 <div class="payment-methods">
@@ -191,7 +191,7 @@
                 <div>
                     <h4>Agency Disclaimer & Passenger Notice</h4>
                     <p>
-                        <strong>Uo Travel Solutions</strong> is an independent travel agency and ticket booking intermediary. We are not a direct train or bus transit operator. Ticket fulfillment, rail schedules, and bus routes are provided by third-party passenger transit carriers.
+                        <strong>Uo Travel Solutions</strong> is a ticket booking agency and intermediary. We are not a direct train or bus transit operator. Ticket fulfillment, rail schedules, and bus routes are provided by third-party passenger transit carriers.
                     </p>
                 </div>
             </div>

@@ -45,7 +45,7 @@ require_once __DIR__ . '/includes/header.php';
                 </button>
                 <div class="accordion-content">
                     <p style="margin-top: 0.75rem; color: var(--text-body); line-height: 1.6;">
-                        Uo Travel Solutions operates as an independent travel agency and ticket booking intermediary. We are not a direct train or bus transport operator. We purchase and issue valid passenger tickets on your behalf through official rail and coach carriers, providing personalized reservation assistance, seat selection, and 24/7 travel support.
+                        Uo Travel Solutions operates as a ticket booking agency and intermediary. We are not a direct train or bus transport operator. We purchase and issue valid passenger tickets on your behalf through official rail and coach carriers, providing personalized reservation assistance, seat selection, and 24/7 travel support.
                     </p>
                 </div>
             </div>

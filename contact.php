@@ -151,7 +151,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
 
                 <div style="background: rgba(255,255,255,0.08); padding: 1rem; border-radius: var(--border-radius-sm); margin-top: 2rem; font-size: 0.8rem; color: #CBD5E1;">
-                    <i class="fa-solid fa-building-shield text-accent"></i> Independent Travel Agency & Intermediary
+                    <i class="fa-solid fa-building-shield text-accent"></i> Ticket Booking Specialist & Intermediary
                 </div>
             </div>
 

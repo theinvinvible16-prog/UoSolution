@@ -11,7 +11,6 @@ require_once __DIR__ . '/includes/packages_data.php';
         
         <!-- Hero Text & Value Proposition -->
         <div class="hero-content">
-            <span class="compliance-badge mb-3"><i class="fa-solid fa-shield-check"></i> Independent Booking Intermediary</span>
             <h1>Book Train & Bus Tickets and Travel Packages with <span class="accent-text">Uo Travel Solutions</span></h1>
             <p>Your online reservation specialist for regional and international train routes, express intercity buses, and all-inclusive scenic travel packages.</p>
             
@@ -103,7 +102,7 @@ require_once __DIR__ . '/includes/packages_data.php';
             <div class="counter-card">
                 <div class="counter-icon"><i class="fa-solid fa-building-shield"></i></div>
                 <div class="counter-text">
-                    <div class="counter-number" style="font-size: 1.15rem; font-weight: 700;">Independent Agency</div>
+                    <div class="counter-number" style="font-size: 1.15rem; font-weight: 700;">Ticket Agency</div>
                     <div class="counter-label">Ticket Booking Intermediary</div>
                 </div>
             </div>

@@ -25,9 +25,9 @@ require_once __DIR__ . '/includes/header.php';
                 <strong>Important Notice:</strong> By accessing <strong><?php echo SITE_DOMAIN; ?></strong> or using booking services provided by <strong><?php echo BUSINESS_LEGAL_NAME; ?></strong>, you agree to be bound by these Terms and Conditions. Please read them carefully prior to requesting reservations.
             </div>
 
-            <h2>1. Independent Travel Agency & Intermediary Role</h2>
+            <h2>1. Ticket Agency & Intermediary Role</h2>
             <p>
-                <strong><?php echo BUSINESS_LEGAL_NAME; ?></strong> ("Uo Travel Solutions", "we", "us", or "our") operates as an independent travel agency and ticket booking intermediary. We assist passengers ("Customer", "you") in searching, reserving, and acquiring ticket reservations for passenger rail services, express bus lines, and curated travel itineraries.
+                <strong><?php echo BUSINESS_LEGAL_NAME; ?></strong> ("Uo Travel Solutions", "we", "us", or "our") operates as a ticket booking agency and intermediary. We assist passengers ("Customer", "you") in searching, reserving, and acquiring ticket reservations for passenger rail services, express bus lines, and curated travel itineraries.
             </p>
             <p>
                 <strong>Carrier Disclaimer:</strong> Uo Travel Solutions does not own, manage, or operate trains, buses, tracks, or transit stations. All transportation is fulfilled by third-party passenger transit carriers (such as national railway operators and intercity motorcoach companies). Each carrier enforces its own Conditions of Carriage, safety protocols, and luggage regulations.

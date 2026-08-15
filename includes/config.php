@@ -26,7 +26,7 @@ define('HOURS_WEEKDAY', 'Monday – Friday: 8:00 AM – 8:00 PM EST');
 define('HOURS_WEEKEND', 'Saturday – Sunday: 9:00 AM – 5:00 PM EST');
 
 // Agency Disclaimer
-define('AGENCY_DISCLAIMER', 'Uo Travel Solutions is an independent travel agency and ticket booking intermediary. Ticket fulfillment, rail schedules, and bus routes are provided by third-party passenger transit carriers. All trademarks, brand names, and logos belong to their respective owners.');
+define('AGENCY_DISCLAIMER', 'Uo Travel Solutions is a ticket booking agency and intermediary. Ticket fulfillment, rail schedules, and bus routes are provided by third-party passenger transit carriers. All trademarks, brand names, and logos belong to their respective owners.');
 
 // Main Navigation Items
 $nav_items = [
