@@ -84,22 +84,22 @@ require_once __DIR__ . '/includes/header.php';
                         </tr>
                         <tr>
                             <td><strong>London to Paris</strong> (UK & France)</td>
-                            <td>Eurostar High-Speed</td>
+                            <td>Cross-Channel Express Rail</td>
                             <td>2h 16m</td>
                             <td><span class="fare-badge fare-badge-express">Standard Premier</span></td>
                             <td>$89 – $165 per adult</td>
                             <td>
-                                <button class="btn btn-accent btn-sm open-quote-modal" data-service="London to Paris Eurostar">Inquire</button>
+                                <button class="btn btn-accent btn-sm open-quote-modal" data-service="London to Paris Express Rail">Inquire</button>
                             </td>
                         </tr>
                         <tr>
                             <td><strong>New York to Washington DC</strong> (USA)</td>
-                            <td>Amtrak Acela / Regional</td>
+                            <td>US Northeast Express Rail</td>
                             <td>2h 55m</td>
                             <td><span class="fare-badge fare-badge-economy">Business / Regional</span></td>
                             <td>$64 – $140 per adult</td>
                             <td>
-                                <button class="btn btn-accent btn-sm open-quote-modal" data-service="NYC to DC Amtrak">Inquire</button>
+                                <button class="btn btn-accent btn-sm open-quote-modal" data-service="NYC to DC Express Rail">Inquire</button>
                             </td>
                         </tr>
                         <tr>

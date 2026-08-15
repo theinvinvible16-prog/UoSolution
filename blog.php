@@ -10,7 +10,7 @@ $blog_posts = [
         'category' => 'Train Guides',
         'date' => 'January 10, 2026',
         'image' => 'https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=800&q=80',
-        'excerpt' => 'Navigating Eurostar, TGV, and Glacier Express trains can be easy with the right seat reservations and packing strategies. Read our top 10 insider tips.'
+        'excerpt' => 'Navigating international high-speed, TGV, and Glacier Express trains can be easy with the right seat reservations and packing strategies. Read our top 10 insider tips.'
     ],
     [
         'slug' => 'train-vs-bus-travel-comparison',

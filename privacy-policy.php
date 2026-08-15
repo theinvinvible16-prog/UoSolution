@@ -51,7 +51,7 @@ require_once __DIR__ . '/includes/header.php';
             </p>
             <p>We share personal data exclusively with essential service partners under strict confidentiality agreements:</p>
             <ul>
-                <li><strong>Passenger Transit Carriers:</strong> Third-party rail operators (e.g. SBB, Eurostar, Amtrak) and bus companies required to issue valid passenger transit tickets.</li>
+                <li><strong>Passenger Transit Carriers:</strong> Third-party passenger rail operators and intercity bus companies required to issue valid passenger transit tickets.</li>
                 <li><strong>Payment Processors:</strong> PCI-DSS compliant payment gateways (Visa, Mastercard, PayPal) for payment authorization.</li>
                 <li><strong>Regulatory & Legal Authorities:</strong> When required by court order, law enforcement, or government customs & border control authorities.</li>
             </ul>

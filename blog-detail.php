@@ -2,7 +2,7 @@
 $slug = isset($_GET['slug']) ? trim($_GET['slug']) : 'top-european-rail-travel-tips';
 
 $page_title = "10 Essential Tips for European High-Speed Rail Travel";
-$page_description = "Navigating Eurostar, TGV, and Glacier Express trains can be easy with the right seat reservations and packing strategies. Read our top 10 insider tips.";
+$page_description = "Navigating international high-speed, TGV, and Glacier Express trains can be easy with the right seat reservations and packing strategies. Read our top 10 insider tips.";
 require_once __DIR__ . '/includes/header.php';
 ?>
 
@@ -27,7 +27,7 @@ require_once __DIR__ . '/includes/header.php';
             </p>
 
             <h2>1. Book Mandatory Seat Reservations Early</h2>
-            <p>High-speed express trains such as Eurostar (London-Paris), TGV (France), and Frecciarossa (Italy) require mandatory seat reservations alongside your rail pass. Peak summer seats can sell out weeks in advance.</p>
+            <p>High-speed express trains such as Cross-Channel High-Speed (London-Paris), TGV (France), and Frecciarossa (Italy) require mandatory seat reservations alongside your rail pass. Peak summer seats can sell out weeks in advance.</p>
 
             <h2>2. Validate E-Tickets on Your Smartphone</h2>
             <p>Ensure you have downloaded offline PDF copies of your barcode e-tickets to your mobile phone before entering train stations with subterranean platforms.</p>

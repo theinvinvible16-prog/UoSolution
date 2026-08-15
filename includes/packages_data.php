@@ -228,10 +228,10 @@ $travel_packages = [
         'reviews_count' => 210,
         'destination' => 'UK, France, Belgium, Netherlands',
         'hero_image' => 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80',
-        'overview' => 'Combine high-speed Eurostar underwater rail crossing with luxury FlixBus/Express Coach transfers across 4 iconic European capitals. Ideal for travelers seeking seamless inner-city transportation without airport hassles.',
+        'overview' => 'Combine high-speed cross-channel underwater rail crossing with luxury FlixBus/Express Coach transfers across 4 iconic European capitals. Ideal for travelers seeking seamless inner-city transportation without airport hassles.',
         'highlights' => [
-            'Eurostar High-Speed Channel Tunnel Train Ticket (London to Paris)',
-            'Thalys / Eurostar High-Speed Express Rail to Brussels & Amsterdam',
+            'High-Speed Channel Tunnel Express Rail Ticket (London to Paris)',
+            'High-Speed International Express Rail to Brussels & Amsterdam',
             'Panoramic Paris City Coach Tour & Seine River Cruise Ticket',
             'Canal Cruise & Zaanse Schans Windmill Express Bus in Holland',
             'City-Center 4-Star Hotels next to Main Transit Terminals'
@@ -247,7 +247,7 @@ $travel_packages = [
             'City tourist accommodation taxes payable directly at hotels (€3-€7/night)',
             'Personal luggage porterage'
         ],
-        'cancellation_policy' => 'Full refund up to 30 days prior. Non-refundable Eurostar carrier fees apply within 30 days.',
+        'cancellation_policy' => 'Full refund up to 30 days prior. Non-refundable high-speed rail carrier fees apply within 30 days.',
         'itinerary' => [
             [
                 'day' => 1,
@@ -261,8 +261,8 @@ $travel_packages = [
             ],
             [
                 'day' => 3,
-                'title' => 'Eurostar Train under the English Channel to Paris',
-                'description' => 'Board the 186 mph Eurostar train from St Pancras to Paris Gare du Nord (2 hrs 15 mins).'
+                'title' => 'High-Speed Express Train under the English Channel to Paris',
+                'description' => 'Board the 186 mph express train from St Pancras to Paris Gare du Nord (2 hrs 15 mins).'
             ],
             [
                 'day' => 4,
@@ -277,7 +277,7 @@ $travel_packages = [
             [
                 'day' => 6,
                 'title' => 'High-Speed Rail to Amsterdam',
-                'description' => 'Board the Eurostar express train direct to Amsterdam Centraal Station.'
+                'description' => 'Board the high-speed express train direct to Amsterdam Centraal Station.'
             ],
             [
                 'day' => 7,
