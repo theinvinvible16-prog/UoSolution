@@ -5,7 +5,7 @@
             <!-- Column 1: Brand & Profile -->
             <div class="footer-col footer-brand-col">
                 <a href="index.php" class="footer-logo">
-                    <i class="fa-solid fa-train-subway logo-icon"></i>
+                    <img src="assets/images/logo.png" alt="Uo Travel Solutions Logo" class="footer-logo-img">
                     <span class="logo-text">UO TRAVEL SOLUTIONS</span>
                 </a>
                 <p class="footer-desc">

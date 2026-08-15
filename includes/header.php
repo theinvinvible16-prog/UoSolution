@@ -49,7 +49,7 @@ if (!isset($page_description)) $page_description = 'Book train tickets, bus tick
     <header class="main-header">
         <div class="container header-container">
             <a href="index.php" class="brand-logo">
-                <div class="logo-icon"><i class="fa-solid fa-route"></i></div>
+                <img src="assets/images/logo.png" alt="Uo Travel Solutions Logo" class="site-logo-img">
                 <div class="logo-text">
                     <span class="brand-name">UO TRAVEL <span class="accent-text">SOLUTIONS</span></span>
                     <span class="brand-sub"><?php echo SITE_DOMAIN; ?></span>

@@ -243,17 +243,27 @@ h4 { font-size: 1.25rem; margin-bottom: 0.5rem; }
     text-decoration: none;
 }
 
-.logo-icon {
-    width: 44px;
-    height: 44px;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
-    color: #FFFFFF;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.35rem;
-    box-shadow: 0 4px 10px rgba(0, 168, 150, 0.25);
+.site-logo-img {
+    height: 52px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+}
+
+.brand-logo:hover .site-logo-img {
+    transform: scale(1.05);
+}
+
+.footer-logo-img {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #FFFFFF;
+    padding: 3px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .logo-text {
