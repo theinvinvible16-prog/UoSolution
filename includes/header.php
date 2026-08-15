@@ -31,11 +31,10 @@ if (!isset($page_description)) $page_description = 'Book train tickets, bus tick
 </head>
 <body>
 
-    <!-- Top Utility & Compliance Announcement Bar -->
+    <!-- Top Utility Announcement Bar -->
     <div class="top-bar">
         <div class="container top-bar-container">
             <div class="top-bar-left">
-                <span class="compliance-badge"><i class="fa-solid fa-shield"></i> Ticket Booking Specialist</span>
                 <span class="top-contact"><i class="fa-solid fa-phone"></i> <a href="tel:18887907847"><?php echo PHONE_PRIMARY; ?></a></span>
                 <span class="top-contact hide-mobile"><i class="fa-solid fa-envelope"></i> <a href="mailto:<?php echo EMAIL_SUPPORT; ?>"><?php echo EMAIL_SUPPORT; ?></a></span>
             </div>
